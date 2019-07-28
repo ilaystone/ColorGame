@@ -1,0 +1,62 @@
+body {
+    background-color: #232323;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    background-color: steelblue;
+    margin: 0px auto;
+    padding: 10px;
+}
+
+button {
+    color: steelblue;
+    border: none;
+    height: 100%;
+    background-color: inherit;
+    outline: none;
+    font-size: inherit;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.square {
+    display: none;
+    width: 30%;
+    background-color: pink;
+    padding-bottom: 30%;
+    float: left;
+    margin: 1.66%;
+    transition: all 1s;
+    border-radius: 15%;
+}
+
+.selected, button:hover {
+    color: white;
+    background-color: steelblue;
+}
+
+#container {
+    max-width: 600px;
+    margin: 5px auto;
+}
+
+#bar {
+    background-color: white;
+    text-align: center;
+    height: 30px;
+}
+
+#answer {
+    display: block;
+    font-size: 200%;
+}
+
+#isCorrect {
+    display: inline-block;
+    width: 20%;
+}
